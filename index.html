@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi primera pagina Web!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+
+    <header class="encabezado"> 
+      <h1 class="fuente-acento">El mago!</h1>
+      <nav class="encabezado">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#seccion-principal">Acerca de mi</a></li>
+          <li><a href="#">Trabajos</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+          </label>
+        </ul>
+      </nav>
+    </header>
+    
+<main id="seccion-principal">
+  <selection class="selection-principal">
+   
+   <h2 class="fuente-oscura">Acerca de mi</h2>
+
+   <p>!Bienvenido a mi pagina Web!. Uno de los actores más populares del cine mexicano.
+    Películas: El padrecito, El Barrendero, Por mis pistolas, La vuelta al mundo en ochenta días...
+    Padres: Pedro Moreno Esquivel y Soledad Reyes Guízar,Cónyuges: Valentina Ivanova Zuvareff (1934-1966)
+    Hijos: Mario Arturo Moreno Ivanova. Nombre: Mario Fortino Alfonso Moreno Reyes
+    Altura: 1,73 m¿Escribe el nombre artistico de este actor?</p> 
+
+      <img src="foto.jpg" alt="foto" />
+      <div class="button">Saber mas</div>
+      <div class="button contacto">Contactarme</div>
+
+  </selection>
+</main>
+
+
+  <h3>
+      <selection class="section secundaria">
+      <img src="imagen.jpg" alt="imagen" />
+  </h3>
+
+
+      
+<!--aca se inserta el codigo para el formulario al final de la pagina-->
+
+
+  <footer class="form-header">
+    <h1>Contacto</h1>
+    <p><em>¡Esperamos tu consulta!</em></p>
+
+    <form action="" method="get" class="formulario">
+      
+      <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" />
+      </div>
+
+      <div class="form-row">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="pepe@gmail.com"
+          />
+      </div>
+
+      <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+      </div>
+
+      <div class="form-row">
+          <button>Enviar</button>
+      </div>
+
+
+    </form>
+  </footer>
+  <script src="script.js"></script>
+
+  <footer>
+    <h4 class="fuente-acento">Redes sociales</h4>
+    <nav>
+      <ul>
+        <li><a href="https://www.paraisodelamascota.org/">Contacto</a></li>
+        <li><a href="https://www.paraisodelamascota.org/">Instagran</a></li>
+        <li><a href="https://www.paraisodelamascota.org/">Servicios</a></li>
+        <li><a href="#seccion-principal">Acerca de mi</a></li>
+        <li><a href="https://wa.me/+573104359766">WhatsApp</a></li>   
+      </ul>
+    </nav>
+    </footer>
+
+ </body>
+
+ </html>
